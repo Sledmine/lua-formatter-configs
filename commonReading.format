@@ -1,0 +1,26 @@
+#############################################
+# Common reading
+# Author: Sledmine
+# Version: 1.0
+#############################################
+
+# Yes, the known standard is 80 lines, but screw it, 100 is the future man :P
+column_limit: 100
+# This is better for reading
+keep_simple_control_block_one_line: false
+keep_simple_function_one_line: false
+# Following curly braces from other languages
+break_after_table_lb: true
+break_before_table_rb: true
+# This is better for easily reading in large function invocations
+break_before_functioncall_rp: true
+# This is kinda weird since functions are not supossed to have too much params
+chop_down_parameter: true
+# This is better for reading tables
+chop_down_table: true
+# This would need revision, it's better for expanding not for semantic
+extra_sep_at_table_end: true
+# I know that single quotes are "simple" but double quotes are more common in most languages
+single_quote_to_double_quote: true
+# Tables are not supossed to be too large
+column_table_limit: 50
