@@ -1,6 +1,6 @@
 # lua-formatter-configs
 
-A set of different formatter configs for [LuaFormatter](https://github.com/Koihik/LuaFormatter).
+A set of different formatter configurations for [LuaFormatter](https://github.com/Koihik/LuaFormatter), this repository was made keep and update better formatting to my Lua projects using [vscode-lua-format](https://github.com>Koihik/vscode-lua-format).
 
 # Common Reading
 
