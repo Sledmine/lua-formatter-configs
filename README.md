@@ -5,6 +5,8 @@ A set of different formatter configs for [LuaFormatter](https://github.com/Koihi
 # Common Reading
 
 ```lua
+-- Line breaks are done after 100 characters
+
 local data = {
     example1 = 1,
     example2 = 2,
@@ -30,4 +32,4 @@ exampleFunctionLargeName("this is a really large invocation", "of a function wit
                          "really large params")
 ```
 
-This format is based in most common
+This format is inspired in the common way to format tables and values in common camel case languages like C# or Java.
