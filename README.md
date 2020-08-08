@@ -1,6 +1,6 @@
 # lua-formatter-configs
 
-A set of different formatter configurations for [LuaFormatter](https://github.com/Koihik/LuaFormatter), this repository was made keep and update better formatting to my Lua projects using [vscode-lua-format](https://github.com>Koihik/vscode-lua-format).
+A set of different formatter configurations for [LuaFormatter](https://github.com/Koihik/LuaFormatter), this repository was made keep and update better formatting to my Lua projects using [vscode-lua-format](https://github.com/Koihik/vscode-lua-format).
 
 # Common Reading
 
@@ -13,11 +13,16 @@ local data = {
     example3= 3
 }
 
+function simpleFunctionOneLine()
+    print("I'm just a simple action with breaks")
+end
+
 function exampleFunctionLargeName(param1, param2, param3)
 
     print("This is a short string with double quotes!")
 
-    local values = {v1 = 1, v2 = 2, v3 = 3}
+    local shortValues = {v1 = 1, v2 = 2, v3 = 3}
+
     print("\"This is a multiple quotes string\"")
 
     local largeValues = {
@@ -25,6 +30,10 @@ function exampleFunctionLargeName(param1, param2, param3)
         value2 = "largeLargeValue",
         value3 = "evenMoreLargeValue",
     }
+
+    if (simpleControlBlockLine) then
+        print("I'm just a conditional with breaks!")
+    end
 
 end
 
